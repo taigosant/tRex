@@ -1,11 +1,11 @@
 .deserto {
-    width: 500px;
+    width: 600px;
     height: 150px;
     position: relative;
 }
 
 .chao {
-    width: 500px;
+    width: 600px;
     height: 16px;
     background-image: url(sprites.png);
     background-position-y: -53px;
@@ -29,4 +29,65 @@
     background-position: -86px 2px;
     position: absolute;
     z-index: 1;
+}
+
+.cacto_small{
+    width: 17px;
+    height: 35px;
+    background-image: url(sprites.png);
+    background-position: -228px 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.cacto_big{
+    width: 25px;
+    height: 50px;
+    background-image: url(sprites.png);
+    background-position: -332px 2px;
+    position: absolute;
+    z-index: 2;
+}
+
+.game_over{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.over_text{
+    width: 192px;
+    height: 13px;
+    background-image: url(sprites.png);
+    background-position: -484px -14px;
+    position: absolute;
+    left: 50%;
+    top: -20px;
+    transform: translate(-50%, -20px);
+    z-index: -1;
+}
+
+.bt_restart{
+    width: 36px;
+    height: 32px;
+    background-image: url(sprites.png);
+    background-position: -2px -2px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
+.font{
+    width: 9px;
+    height: 11px;
+    background-image: url(sprites.png);
+    position: relative;
+    background-position: -484px -2px; 
+    margin: 1px;
+    z-index: -1;
+    float: right;
+    top: 0;
 }
